@@ -4,18 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "git config include.path ../.gitalias",
     "lint": "eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
     "url": ""
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Bernardo A. Dal Corno",
   "license": "ISC",
   "bugs": {
-    "url": "/issues"
+    "url": "http://example.com/issues"
   },
   "homepage": "#readme",
   "devDependencies": {
