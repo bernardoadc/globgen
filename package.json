@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "git config include.path ../.gitalias",
+    "init": "git config include.path ../.gitalias",
     "lint": "eslint --ignore-path .gitignore ."
   },
   "repository": {
