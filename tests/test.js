@@ -1,5 +1,6 @@
 const test = require('ava')
 
+
 test('sum', t => {
   t.is(sum(1, 1), 2)
   t.is(sum(2, 2), 4)
