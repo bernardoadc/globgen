@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "test:watch": "ava --watch"
+    "test:watch": "ava --watch",
+    "test:upd-snap": "ava --update-snapshots"
   },
   "keywords": [],
   "author": "",
