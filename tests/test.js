@@ -10,14 +10,6 @@ test('sum', t => {
   t.log('um log')
 })
 
-test('testao', t => {
-  t.is(true, true)
-  test('teste do teste', t => {
-    t.pass()
-  })
-})
-
-
 function sum (...n) {
   return n.reduce((r, v) => r + v)
 }
