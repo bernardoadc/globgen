@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "lint": "eslint --fix -f compact --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@z3k/eslint-config-zk": "^1.0.3"
+  }
+}
