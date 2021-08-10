@@ -1,11 +1,9 @@
 {
   "name": "newproject",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "init": "git config include.path ../.gitalias",
-    "lint": "eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -14,16 +12,5 @@
   "keywords": [],
   "author": "Bernardo A. Dal Corno",
   "license": "ISC",
-  "bugs": {
-    "url": "http://example.com/issues"
-  },
-  "homepage": "#readme",
-  "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
-  }
+  "homepage": "#readme"
 }
