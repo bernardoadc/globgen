@@ -4,12 +4,17 @@
   "description": "Glob generator",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --fix -f compact --ignore-path .gitignore ."
+    "lint": "eslint --fix -f compact --ignore-path .gitignore .",
+    "test": "nyc ava",
+    "test:watch": "ava --watch",
+    "test:upd-snap": "ava --update-snapshots"
   },
   "keywords": [],
   "author": "Bernardo A. Dal Corno",
   "license": "ISC",
   "devDependencies": {
-    "@z3k/eslint-config-zk": "^1.0.3"
+    "@z3k/eslint-config-zk": "^1.0.3",
+    "ava": "^3.1.0",
+    "eslint-plugin-ava": "^10.0.0"
   }
 }

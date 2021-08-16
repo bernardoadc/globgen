@@ -1,10 +1,15 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true
+    es6: true,
+    node: true
   },
   extends: [
-    'zk'
+    'zk',
+    'plugin:ava/recommended'
+  ],
+  plugins: [
+    'ava'
   ],
   globals: {
     Atomics: 'readonly',
@@ -14,5 +19,6 @@ module.exports = {
     ecmaVersion: 2018
   },
   rules: {
+    "ava/no-skip-test": ['warn']
   }
 }
