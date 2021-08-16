@@ -4,8 +4,12 @@
   "description": "Glob generator",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --fix -f compact --ignore-path .gitignore ."
   },
   "keywords": [],
   "author": "Bernardo A. Dal Corno",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@z3k/eslint-config-zk": "^1.0.3"
+  }
 }
